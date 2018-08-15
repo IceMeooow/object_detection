@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>AH 0000 HA.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/AH 0000 HA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>785</width>
+		<height>518</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>135</xmin>
+			<ymin>176</ymin>
+			<xmax>654</xmax>
+			<ymax>379</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>505</xmin>
+			<ymin>272</ymin>
+			<xmax>584</xmax>
+			<ymax>295</ymax>
+		</bndbox>
+	</object>
+</annotation>

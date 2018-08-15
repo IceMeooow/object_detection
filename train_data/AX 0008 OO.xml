@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>AX 0008 OO.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/AX 0008 OO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>933</width>
+		<height>447</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>8</ymin>
+			<xmax>594</xmax>
+			<ymax>428</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>463</xmin>
+			<ymin>279</ymin>
+			<xmax>552</xmax>
+			<ymax>316</ymax>
+		</bndbox>
+	</object>
+</annotation>
