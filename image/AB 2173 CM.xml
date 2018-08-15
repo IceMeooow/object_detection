@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>AB 2173 CM.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/AB 2173 CM.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>345</width>
+		<height>461</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>1</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>130</ymin>
+			<xmax>297</xmax>
+			<ymax>368</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>313</ymin>
+			<xmax>180</xmax>
+			<ymax>343</ymax>
+		</bndbox>
+	</object>
+</annotation>

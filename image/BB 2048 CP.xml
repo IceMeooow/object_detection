@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>BB 2048 CP.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/BB 2048 CP.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>380</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>26</ymin>
+			<xmax>275</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>142</ymin>
+			<xmax>201</xmax>
+			<ymax>157</ymax>
+		</bndbox>
+	</object>
+</annotation>

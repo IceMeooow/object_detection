@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>BH 2444 HM.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/BH 2444 HM.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1349</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>104</xmin>
+			<ymin>453</ymin>
+			<xmax>1022</xmax>
+			<ymax>1067</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>710</xmin>
+			<ymin>839</ymin>
+			<xmax>939</xmax>
+			<ymax>947</ymax>
+		</bndbox>
+	</object>
+</annotation>

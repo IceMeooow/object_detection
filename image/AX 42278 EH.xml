@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>AX 42278 EH.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/AX 42278 EH.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>124</xmin>
+			<ymin>88</ymin>
+			<xmax>738</xmax>
+			<ymax>555</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>413</xmin>
+			<ymin>436</ymin>
+			<xmax>585</xmax>
+			<ymax>481</ymax>
+		</bndbox>
+	</object>
+</annotation>

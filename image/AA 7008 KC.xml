@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>AA 7008 KC.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/AA 7008 KC.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>442</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>147</ymin>
+			<xmax>512</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>177</xmin>
+			<ymin>246</ymin>
+			<xmax>283</xmax>
+			<ymax>273</ymax>
+		</bndbox>
+	</object>
+</annotation>

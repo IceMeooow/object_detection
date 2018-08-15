@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>BB 0111 BT.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/BB 0111 BT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>460</width>
+		<height>350</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>30</xmin>
+			<ymin>52</ymin>
+			<xmax>380</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>246</xmin>
+			<ymin>142</ymin>
+			<xmax>317</xmax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+</annotation>

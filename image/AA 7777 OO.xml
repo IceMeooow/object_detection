@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car</folder>
+	<filename>AA 7777 OO.jpg</filename>
+	<path>/home/dsokol/Downloads/linux_v1.4.3/data/car/AA 7777 OO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>17</xmin>
+			<ymin>6</ymin>
+			<xmax>569</xmax>
+			<ymax>389</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>1</difficult>
+		<bndbox>
+			<xmin>108</xmin>
+			<ymin>292</ymin>
+			<xmax>238</xmax>
+			<ymax>338</ymax>
+		</bndbox>
+	</object>
+</annotation>
