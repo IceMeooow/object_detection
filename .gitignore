@@ -1,3 +1,5 @@
 .idea/*
 image/*
 data/*
+train_data/*
+test_data/*
