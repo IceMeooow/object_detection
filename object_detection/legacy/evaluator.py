@@ -27,6 +27,7 @@ from object_detection.core import standard_fields as fields
 from object_detection.metrics import coco_evaluation
 from object_detection.utils import object_detection_evaluation
 
+
 # A dictionary of metric names to classes that implement the metric. The classes
 # in the dictionary must implement
 # utils.object_detection_evaluation.DetectionEvaluator interface.
@@ -253,6 +254,8 @@ def evaluate(create_input_dict_fn, create_model_fn, eval_config, categories,
   def _restore_latest_checkpoint(sess):
     latest_checkpoint = tf.train.latest_checkpoint(checkpoint_dir)
     saver.restore(sess, latest_checkpoint)
+
+
 
   if not evaluator_list:
     evaluator_list = get_evaluators(eval_config, categories)

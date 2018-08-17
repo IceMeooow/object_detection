@@ -304,7 +304,7 @@ class ObjectDetectionEvaluator(DetectionEvaluator):
       if idx + self._label_id_offset in category_index:
         category_name = category_index[idx + self._label_id_offset]['name']
         try:
-          category_name = unicode(category_name, 'utf-8')
+          category_name = category_name
         except TypeError:
           pass
         category_name = unicodedata.normalize(
@@ -320,7 +320,6 @@ class ObjectDetectionEvaluator(DetectionEvaluator):
               self._metric_prefix + 'PerformanceByCategory/CorLoc@{}IOU/{}'
               .format(self._matching_iou_threshold, category_name))
           pascal_metrics[display_name] = per_class_corloc[idx]
-
     return pascal_metrics
 
   def clear(self):
@@ -611,17 +610,14 @@ class OpenImagesDetectionChallengeEvaluator(OpenImagesDetectionEvaluator):
 
   def clear(self):
     """Clears stored data."""
-
     super(OpenImagesDetectionChallengeEvaluator, self).clear()
     self._evaluatable_labels.clear()
-
 
 ObjectDetectionEvalMetrics = collections.namedtuple(
     'ObjectDetectionEvalMetrics', [
         'average_precisions', 'mean_ap', 'precisions', 'recalls', 'corlocs',
         'mean_corloc'
     ])
-
 
 class ObjectDetectionEvaluation(object):
   """Internal implementation of Pascal object detection metrics."""
@@ -795,8 +791,7 @@ class ObjectDetectionEvaluation(object):
       if scores[i].shape[0] > 0:
         self.scores_per_class[i].append(scores[i])
         self.tp_fp_labels_per_class[i].append(tp_fp_labels[i])
-    (self.num_images_correctly_detected_per_class
-    ) += is_class_correctly_detected_in_image
+    (self.num_images_correctly_detected_per_class) += is_class_correctly_detected_in_image
 
   def _update_ground_truth_statistics(self, groundtruth_class_labels,
                                       groundtruth_is_difficult_list,

@@ -417,14 +417,13 @@ def repeated_checkpoint_run(tensor_dict,
   number_of_evaluations = 0
   while True:
     start = time.time()
-    logging.info('Starting evaluation at ' + time.strftime(
-        '%Y-%m-%d-%H:%M:%S', time.gmtime()))
+    logging.warn('Starting evaluation at ' + time.strftime('%Y-%m-%d-%H:%M:%S', time.gmtime()))
     model_path = tf.train.latest_checkpoint(checkpoint_dirs[0])
     if not model_path:
-      logging.info('No model found in %s. Will try again in %d seconds',
+      logging.warn('No model found in %s. Will try again in %d seconds',
                    checkpoint_dirs[0], eval_interval_secs)
     elif model_path == last_evaluated_model_path:
-      logging.info('Found already evaluated checkpoint. Will try again in %d '
+      logging.warn('Found already evaluated checkpoint. Will try again in %d '
                    'seconds', eval_interval_secs)
     else:
       last_evaluated_model_path = model_path
@@ -438,15 +437,12 @@ def repeated_checkpoint_run(tensor_dict,
                                                   losses_dict=losses_dict)
       write_metrics(metrics, global_step, summary_dir)
     number_of_evaluations += 1
-
-    if (max_number_of_evaluations and
-        number_of_evaluations >= max_number_of_evaluations):
-      logging.info('Finished evaluation!')
+    if (max_number_of_evaluations and number_of_evaluations >= max_number_of_evaluations):
+      logging.warn('Finished evaluation!')
       break
     time_to_next_eval = start + eval_interval_secs - time.time()
     if time_to_next_eval > 0:
       time.sleep(time_to_next_eval)
-
   return metrics
 
 
